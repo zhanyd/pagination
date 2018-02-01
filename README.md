@@ -1,4 +1,4 @@
-该分页插件使用简单，体积小，配合bootstrap使用，请先引入bootstrap  
+该分页插件使用简单，体积小，配合bootstrap使用，请先引入bootstrap     
 使用方法如下：  
 
 ## 在页面上插入
@@ -9,9 +9,9 @@
 
 ## 调用方法
 $(".pagination").initPagination('formId',20,{  
-			&nbsp;&nbsp;&nbsp;&nbsp;pageNum: 1,  
-			&nbsp;&nbsp;&nbsp;&nbsp;pageSize: 10  
-		});  
+&nbsp;&nbsp;&nbsp;&nbsp;pageNum: 1,  
+&nbsp;&nbsp;&nbsp;&nbsp;pageSize: 10  
+});  
     
 ## 参数说明
 initPagination(formId,pages,option)  
