@@ -1,5 +1,4 @@
-# pagination
-分页插件
+该分页插件使用简单，体积小，使用方法如下：  
 
 ## 在页面上插入
 &lt;nav aria-label="Page navigation"&gt;  
@@ -20,4 +19,4 @@ initPagination(formId,pages,option)  
 * pageNum：当前页数
 * pageSize：每页数量
 
-![分页效果](/img1.jpg)
+![](pic1.png)
