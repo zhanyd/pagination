@@ -1,4 +1,5 @@
-该分页插件使用简单，体积小，使用方法如下：  
+该分页插件使用简单，体积小，配合bootstrap使用，请先引入bootstrap  
+使用方法如下：  
 
 ## 在页面上插入
 &lt;nav aria-label="Page navigation"&gt;  
