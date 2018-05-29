@@ -10,7 +10,7 @@
 		initPagination : function(formId,pages,option){
 			
 			var defaults = {
-					pageNum: 1,      //起始页
+					pageNum: 1,      //当前页
 					pageSize: 10,    //每页数
 					leftPageNum: 3,  //左边页数
 					middleNum: 10,   //中间页数
@@ -28,7 +28,7 @@
 				//当前页是第一页时
 				if(settings.pageNum == 1){
 					//settings.leftPageNum + 1处后面加...
-					if(i == (settings.leftPageNum + 1) && settings.leftPageNum + settings.rightPageNum <= pages){
+					if(i == (settings.leftPageNum + 1) && settings.leftPageNum + settings.rightPageNum < pages){
 						$(this).append('<li><a href="#">...</a></li>');
 						
 						//...一直加到最后一页往前推settings.rightPageNum页
@@ -39,7 +39,7 @@
 				//当前页小于中间页数时
 				else if(settings.pageNum < settings.middleNum){
 					//settings.middleNum + 1处后面加...
-					if(i == (settings.middleNum + 1) && settings.middleNum + settings.rightPageNum <= pages){
+					if(i == (settings.middleNum + 1) && settings.middleNum + settings.rightPageNum < pages){
 						$(this).append('<li><a href="#">...</a></li>');
 						
 						//...一直加到最后一页往前推settings.rightPageNum页
@@ -49,7 +49,7 @@
 				}
 				else{
 					//settings.leftPageNum + 1处后面加...
-					if(i == (settings.leftPageNum + 1) && settings.leftPageNum + settings.rightPageNum <= pages){
+					if(i == (settings.leftPageNum + 1) && settings.leftPageNum + settings.rightPageNum < pages){
 						$(this).append('<li><a href="#">...</a></li>');
 						
 						//...一直加到当前页前面settings.middleNum/2处
@@ -58,7 +58,7 @@
 					}
 					
 					//当前页后面settings.middleNum/2处加...
-					if(i == (settings.pageNum + settings.middleNum/2) && (settings.pageNum + settings.middleNum/2 + settings.rightPageNum) <= pages){
+					if(i == (settings.pageNum + settings.middleNum/2) && (settings.pageNum + settings.middleNum/2 + settings.rightPageNum) < pages){
 						$(this).append('<li><a href="#">...</a></li>');
 						
 						//...一直加到最后一页往前推settings.rightPageNum页
@@ -113,4 +113,5 @@
 		}
 	});
 }(jQuery));
+
 
