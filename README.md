@@ -1,4 +1,4 @@
-该分页插件使用简单，适用于bootstrap3体积小，配合bootstrap使用，请先引入bootstrap     
+该分页插件使用简单，适用于bootstrap3表单提交，体积小，配合bootstrap使用，请先引入bootstrap     
 使用方法如下：  
 
 ## from里加入隐藏域
