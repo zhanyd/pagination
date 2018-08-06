@@ -1,10 +1,10 @@
-该分页插件使用简单，体积小，配合bootstrap使用，请先引入bootstrap     
+该分页插件使用简单，适用于bootstrap3体积小，配合bootstrap使用，请先引入bootstrap     
 使用方法如下：  
 
 ## from里加入隐藏域
-&lt;form action="" id="formId" method="post" class="form-horizontal"&gt;
-    &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="hidden" id="pageNum" name="pageNum"&gt;
-    &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="hidden" id="pageSize" name="pageSize"&gt;
+&lt;form action="" id="formId" method="post" class="form-horizontal"&gt;  
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="hidden" id="pageNum" name="pageNum"&gt;  
+    &nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="hidden" id="pageSize" name="pageSize"&gt;  
 &lt;/form&gt;
 
 ## 在页面上插入
