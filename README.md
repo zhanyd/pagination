@@ -1,6 +1,12 @@
 该分页插件使用简单，体积小，配合bootstrap使用，请先引入bootstrap     
 使用方法如下：  
 
+## from里加入隐藏域
+<form action="" id="formId" method="post" class="form-horizontal">
+		<input type="hidden" id="pageNum" name="pageNum"/>
+		<input type="hidden" id="pageSize" name="pageSize"/>
+</form>
+
 ## 在页面上插入
 &lt;nav aria-label="Page navigation"&gt;  
     &nbsp;&nbsp;&nbsp;&nbsp;&lt;ul class="pagination"&gt;  
