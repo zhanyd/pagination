@@ -2,10 +2,10 @@
 使用方法如下：  
 
 ## from里加入隐藏域
-<form action="" id="formId" method="post" class="form-horizontal">
-		<input type="hidden" id="pageNum" name="pageNum"/>
-		<input type="hidden" id="pageSize" name="pageSize"/>
-</form>
+&lt;/form action="" id="formId" method="post" class="form-horizontal"&gt;
+		<input type="hidden" id="pageNum" name="pageNum"&gt;
+		<input type="hidden" id="pageSize" name="pageSize"&gt;
+&lt;/form&gt;
 
 ## 在页面上插入
 &lt;nav aria-label="Page navigation"&gt;  
